@@ -15,6 +15,10 @@ private:
   string genero;
   string tags;
 public:
+  Filme()
+  {
+
+  };  
   Filme(string s_nome ,string s_genero ,string s_tags , double s_nota , int s_posicao);
   void set_nome(string s_nome);
   void set_nota(double s_nota);
